@@ -1,4 +1,15 @@
 ﻿using BenchmarkDotNet.Running;
 using NewInDotNET8;
 
-BenchmarkRunner.Run<DictionaryBenchmarks>();
+#region .NET 8
+
+// BenchmarkRunner.Run<CollectionBenchmarks>();
+// BenchmarkRunner.Run<DictionaryBenchmarks>();
+
+await Enumarables.ShowListAsync();
+Console.WriteLine();
+await Enumarables.ShowAsyncList();
+
+#endregion
+
+
