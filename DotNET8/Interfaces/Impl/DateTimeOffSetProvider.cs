@@ -1,4 +1,4 @@
-﻿namespace NewInDotNET8.Interfaces.Impl;
+﻿namespace DotNET8.Interfaces.Impl;
 
 public class DateTimeOffSetProvider:IDateTimeOffsetProvider
 {

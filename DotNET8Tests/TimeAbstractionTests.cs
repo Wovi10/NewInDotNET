@@ -1,7 +1,7 @@
 using Moq;
-using NewInDotNET8;
+using DotNET8;
 
-namespace NewInDotNET8Tests;
+namespace DotNET8Tests;
 
 public class TimeAbstractionTests
 {

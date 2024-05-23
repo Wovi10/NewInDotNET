@@ -2,7 +2,7 @@
 using System.Collections.Immutable;
 using BenchmarkDotNet.Attributes;
 
-namespace NewInDotNET8;
+namespace DotNET8;
 
 [MemoryDiagnoser]
 public class CollectionBenchmarks

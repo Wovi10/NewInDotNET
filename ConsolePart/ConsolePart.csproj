@@ -5,6 +5,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,7 +13,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NewInDotNET8\NewInDotNET8.csproj" />
+      <ProjectReference Include="..\CSharp12\CSharp12.csproj" />
+      <ProjectReference Include="..\DotNET8\DotNET8.csproj" />
     </ItemGroup>
 
 </Project>

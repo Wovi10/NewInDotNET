@@ -1,4 +1,4 @@
-﻿namespace NewInDotNET8;
+﻿namespace DotNET8;
 
 public class TimeAbstraction(TimeProvider timeProvider)
 {
