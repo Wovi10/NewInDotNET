@@ -2,8 +2,8 @@
 using CSharp12;
 using DotNET8;
 
-// await DotNet8();
-CSharp12();
+await DotNet8();
+// CSharp12();
 return;
 
 
