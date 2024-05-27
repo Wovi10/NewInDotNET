@@ -16,7 +16,7 @@ public class CollectionBenchmarks
 
     private int _middle;
 
-    [Params(1000)] public int Size { get; set; }
+    [Params(10000)] public int Size { get; set; }
 
     [GlobalSetup]
     public void GlobalSetup()

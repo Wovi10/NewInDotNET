@@ -1,9 +1,20 @@
 ﻿namespace CSharp12;
 
-public class Person(string surname, string firstname, DateTime birthDate)
+public class Person
 {
-    public string Name => $"{firstname} {surname}";
-    public int Age => (int) ((DateTime.Today - birthDate).TotalDays / 365.25);
+    public Person(string surname, string firstname, DateTime birthDate)
+    {
+        _surname = surname;
+        _firstname = firstname;
+        _birthDate = birthDate;
+    }
+    
+    private readonly string _firstname;
+    private readonly string _surname;
+    private readonly DateTime _birthDate;
+    
+    public string Name => $"{_firstname} {_surname}";
+    public int Age => (int) ((DateTime.Today - _birthDate).TotalDays / 365.25);
 
     public override string ToString()
     {
