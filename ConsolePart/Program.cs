@@ -36,6 +36,10 @@ void CSharp12()
     var secondNumberOriginal = numbersOriginal[1];
     var secondNumber = numbers[1];
 
+    
+    var OldIncrementBy = new Func<int, int, int>((source, increment) => source + increment);
+    Console.WriteLine(OldIncrementBy(5, 2));
+
     var IncrementBy = (int source, int increment = 1) => source + increment;
     var SumCollection = (params int[] values) => values.Sum();
 
