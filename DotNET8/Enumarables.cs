@@ -25,7 +25,7 @@ public static class Enumarables
 
     public static async Task ShowAsyncList()
     {
-        await foreach (var item in GetAsyncList()) 
+        await foreach (var item in GetAsyncList())
             Console.WriteLine($"{DateTime.Now.ToLongTimeString()}: {item}");
     }
 
